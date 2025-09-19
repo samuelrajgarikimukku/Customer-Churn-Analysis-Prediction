@@ -35,8 +35,7 @@ The workflow covers the entire pipeline — ETL in SQL Server → Data Explorati
 -  Geographic (Top 5 States by churn rate)
 -  Churn Distribution (Category, Reason)
 -  Services usage & churn impact
-**Churn Reason Tooltip Page**
-
+**Churn Reason Tooltip Page** 
 ### Step 5 – Machine Learning (Python, Jupyter Notebook)
 -  Model: Random Forest Classifier
 -  Libraries: _**pandas**_, _**numpy**_, **_matplotlib_**,** _seaborn_**,**_scikit-learn_**,** _joblib_**
