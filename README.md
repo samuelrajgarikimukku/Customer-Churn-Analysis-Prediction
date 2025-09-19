@@ -47,7 +47,6 @@ The workflow covers the entire pipeline — ETL in SQL Server → Data Explorati
 ### Step 6 – Predicted Data Visualization (Power BI)
 
 - Import predictions back into SQL/CSV
-
 - Dashboard includes demographic, account info, and geographic breakdown of predicted churners
 
 ## 🎯 Project Goals
@@ -74,23 +73,23 @@ This project focuses on a telecom dataset, but the techniques are industry-agnos
 - Python (scikit-learn, pandas, seaborn) (Machine Learning)
 - GitHub (Version Control, Documentation)
 
-📸 Sample Dashboards
+## 📸 Sample Dashboards
 
 👉 (Add screenshots of your Power BI dashboards here)
 
 ## 📂 Repository Structure
-📁 data/                 # Raw & cleaned datasets  
-📁 sql/                  # SQL scripts (ETL, transformations, views)  
-📁 notebooks/            # Jupyter notebooks for ML model  
-📁 dashboards/           # Power BI files (.pbix) & images  
-📄 README.md             # Project documentation  
+-   📁 data/                 # Raw & cleaned datasets  
+-  📁 sql/                  # SQL scripts (ETL, transformations, views)  
+-  📁 notebooks/            # Jupyter notebooks for ML model  
+-  📁 dashboards/           # Power BI files (.pbix) & images  
+-  📄 README.md             # Project documentation  
 
 ## 🔮 Future Enhancements
 
-- Test additional ML models (XGBoost, LightGBM, Neural Networks)
-- Automate ETL with SQL Agent Jobs / Airflow
-- Deploy ML model as an API service
-- Enable real-time churn prediction with Power BI + ML pipeline integration
+-  Test additional ML models (XGBoost, LightGBM, Neural Networks)
+-  Automate ETL with SQL Agent Jobs / Airflow
+-  Deploy ML model as an API service
+-  Enable real-time churn prediction with Power BI + ML pipeline integration
 
 ## 🙌 Acknowledgements
 
