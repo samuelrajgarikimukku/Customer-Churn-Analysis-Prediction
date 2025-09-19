@@ -37,86 +37,64 @@ The workflow covers the entire pipeline — ETL in SQL Server → Data Explorati
 -  Services usage & churn impact
 **Churn Reason Tooltip Page**
 
-Step 5 – Machine Learning (Python, Jupyter Notebook)
+### Step 5 – Machine Learning (Python, Jupyter Notebook)
 -  Model: Random Forest Classifier
--  Libraries: _**pandas**_, _**numpy**_, **_matplotlib_**, _seaborn_, s_cikit-learn_, _joblib_
+-  Libraries: _**pandas**_, _**numpy**_, **_matplotlib_**,** _seaborn_**,**_scikit-learn_**,** _joblib_**
 -  Preprocessing: Label Encoding, Train/Test Split
 -  Evaluation: Confusion Matrix, Classification Report, Feature Importance
-- Predictions on new joiner dataset (vw_JoinData)
+- Predictions on new joiner dataset (_**vw_JoinData**_)
 
-Step 6 – Predicted Data Visualization (Power BI)
+### Step 6 – Predicted Data Visualization (Power BI)
 
-Import predictions back into SQL/CSV
+- Import predictions back into SQL/CSV
 
-Dashboard includes demographic, account info, and geographic breakdown of predicted churners
+- Dashboard includes demographic, account info, and geographic breakdown of predicted churners
 
-🎯 Project Goals
+## 🎯 Project Goals
 
-Build a complete ETL pipeline in SQL Server
+- Build a complete ETL pipeline in SQL Server
+- Create insightful Power BI dashboards for churn analysis
+- Develop a Random Forest ML model to predict churners
+- Enable businesses to design targeted retention strategies
 
-Create insightful Power BI dashboards for churn analysis
+## 📌 Key Metrics
 
-Develop a Random Forest ML model to predict churners
+- Total Customers
+- Total Churn & Churn Rate
+- New Joiners
+- Predicted Churners
 
-Enable businesses to design targeted retention strategies
-
-📌 Key Metrics
-
-Total Customers
-
-Total Churn & Churn Rate
-
-New Joiners
-
-Predicted Churners
-
-👥 Target Audience
-
+## 👥 Target Audience
 This project focuses on a telecom dataset, but the techniques are industry-agnostic. Retail, finance, healthcare, and subscription-based businesses can adapt the methodology to improve customer retention & loyalty.
 
-🎨 Design Colors
-#4A44F2  
-#9B9FF2  
-#F2F2F2  
-#A0D1FF  
+## ⚙️ Tools & Technologies
 
-⚙️ Tools & Technologies
-
-SQL Server & SSMS (ETL, Data Cleaning, Views)
-
-Power BI (Visualization, Insights, Dashboarding)
-
-Python (scikit-learn, pandas, seaborn) (Machine Learning)
-
-GitHub (Version Control, Documentation)
+- SQL Server & SSMS (ETL, Data Cleaning, Views)
+- Power BI (Visualization, Insights, Dashboarding)
+- Python (scikit-learn, pandas, seaborn) (Machine Learning)
+- GitHub (Version Control, Documentation)
 
 📸 Sample Dashboards
 
 👉 (Add screenshots of your Power BI dashboards here)
 
-📂 Repository Structure
+## 📂 Repository Structure
 📁 data/                 # Raw & cleaned datasets  
 📁 sql/                  # SQL scripts (ETL, transformations, views)  
 📁 notebooks/            # Jupyter notebooks for ML model  
 📁 dashboards/           # Power BI files (.pbix) & images  
 📄 README.md             # Project documentation  
 
-🔮 Future Enhancements
+## 🔮 Future Enhancements
 
-Test additional ML models (XGBoost, LightGBM, Neural Networks)
+- Test additional ML models (XGBoost, LightGBM, Neural Networks)
+- Automate ETL with SQL Agent Jobs / Airflow
+- Deploy ML model as an API service
+- Enable real-time churn prediction with Power BI + ML pipeline integration
 
-Automate ETL with SQL Agent Jobs / Airflow
+## 🙌 Acknowledgements
 
-Deploy ML model as an API service
-
-Enable real-time churn prediction with Power BI + ML pipeline integration
-
-🙌 Acknowledgements
-
-Microsoft SQL Server & SSMS
-
-Microsoft Power BI
-
-Python & Open-Source Libraries
-
-Inspiration from real-world telecom churn datasets
+- Microsoft SQL Server & SSMS
+- Microsoft Power BI
+- Python & Open-Source Libraries
+- Inspiration from real-world telecom churn datasets
