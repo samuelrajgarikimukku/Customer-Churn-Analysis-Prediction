@@ -38,7 +38,7 @@ The workflow covers the entire pipeline — ETL in SQL Server → Data Explorati
 **Churn Reason Tooltip Page** 
 ### Step 5 – Machine Learning (Python, Jupyter Notebook)
 -  Model: Random Forest Classifier
--  Libraries: _**pandas**_, _**numpy**_, **_matplotlib_**,** _seaborn_**,**_scikit-learn_**,** _joblib_**
+-  Libraries: _**pandas**_, _**numpy**_, **_matplotlib_**, **_seaborn_**, **_scikit-learn_**, **_joblib_**
 -  Preprocessing: Label Encoding, Train/Test Split
 -  Evaluation: Confusion Matrix, Classification Report, Feature Importance
 - Predictions on new joiner dataset (_**vw_JoinData**_)
