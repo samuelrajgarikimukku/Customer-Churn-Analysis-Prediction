@@ -17,32 +17,32 @@ The workflow covers the entire pipeline — ETL in SQL Server → Data Explorati
 -  Create SQL Views (vw_ChurnData, vw_JoinData) for Power BI & ML integration.
 
 ### Step 2 – Power BI Transformation
--Create calculated columns (Churn Status, Monthly Charge Range).
--Create mapping tables for Age Groups, Tenure Groups, and Services.
--Unpivot service columns for analysis.
+-  Create calculated columns (Churn Status, Monthly Charge Range).
+-  Create mapping tables for Age Groups, Tenure Groups, and Services.
+-  Unpivot service columns for analysis.
 
 ### Step 3 – Power BI Measures
--Total Customers
--New Joiners
--Total Churn
--Churn Rate
+-  Total Customers
+-  New Joiners
+-  Total Churn
+-  Churn Rate
 
 ### Step 4 – Power BI Dashboards
 **Executive Summary Dashboard:**
--KPIs (Customers, Joiners, Churn, Churn Rate)
--Demographic (Gender, Age Group)
--Account Info (Payment Method, Contract, Tenure Group)
--Geographic (Top 5 States by churn rate)
--Churn Distribution (Category, Reason)
--Services usage & churn impact
+-  KPIs (Customers, Joiners, Churn, Churn Rate)
+-  Demographic (Gender, Age Group)
+-  Account Info (Payment Method, Contract, Tenure Group)
+-  Geographic (Top 5 States by churn rate)
+-  Churn Distribution (Category, Reason)
+-  Services usage & churn impact
 **Churn Reason Tooltip Page**
 
 Step 5 – Machine Learning (Python, Jupyter Notebook)
--Model: Random Forest Classifier
--Libraries: _**pandas**_, _**numpy**_, **_matplotlib_**, _seaborn_, s_cikit-learn_, _joblib_
--Preprocessing: Label Encoding, Train/Test Split
--Evaluation: Confusion Matrix, Classification Report, Feature Importance
--Predictions on new joiner dataset (vw_JoinData)
+-  Model: Random Forest Classifier
+-  Libraries: _**pandas**_, _**numpy**_, **_matplotlib_**, _seaborn_, s_cikit-learn_, _joblib_
+-  Preprocessing: Label Encoding, Train/Test Split
+-  Evaluation: Confusion Matrix, Classification Report, Feature Importance
+- Predictions on new joiner dataset (vw_JoinData)
 
 Step 6 – Predicted Data Visualization (Power BI)
 
