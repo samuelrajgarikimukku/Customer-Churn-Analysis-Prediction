@@ -73,8 +73,8 @@ This project focuses on a telecom dataset, but the techniques are industry-agnos
 - GitHub (Version Control, Documentation)
 
 ## 📸 Sample Dashboards
-
-👉 (Add screenshots of your Power BI dashboards here)
+<img width="984" height="551" alt="image" src="https://github.com/user-attachments/assets/8b9046c5-a470-41e6-b9ad-e747f953cfee" />
+<img width="972" height="541" alt="image" src="https://github.com/user-attachments/assets/47486072-b9da-41d3-80e4-a8491582e51b" />
 
 ## 📂 Repository Structure
 -   📁 data/                 # Raw & cleaned datasets  
