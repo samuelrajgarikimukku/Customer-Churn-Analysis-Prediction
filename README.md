@@ -11,10 +11,10 @@ The workflow covers the entire pipeline — ETL in SQL Server → Data Explorati
 
 ## 🗂️ Project Workflow
 ### Step 1 – ETL Process (SQL Server)
--Load raw CSV data into SQL Server using Import Wizard.
--Create stg_Churn staging table and clean data (handling nulls, encoding values).
--Load clean data into prod_Churn table.
--Create SQL Views (vw_ChurnData, vw_JoinData) for Power BI & ML integration.
+-  Load raw CSV data into SQL Server using Import Wizard.
+-  Create stg_Churn staging table and clean data (handling nulls, encoding values).
+-   Load clean data into prod_Churn table.
+-  Create SQL Views (vw_ChurnData, vw_JoinData) for Power BI & ML integration.
 
 ### Step 2 – Power BI Transformation
 -Create calculated columns (Churn Status, Monthly Charge Range).
