@@ -2,10 +2,10 @@
 ## 🚀 Introduction
 
 Customer churn is a critical challenge for businesses in today’s competitive environment. This project demonstrates how data engineering, analytics, and machine learning can be combined to:
-- Understand customer behavior
-- Identify churn drivers
-- Predict customers likely to churn
-- Provide actionable insights via Power BI dashboards
+-   Understand customer behavior
+-   Identify churn drivers
+-   Predict customers likely to churn
+-   Provide actionable insights via Power BI dashboards
 
 The workflow covers the entire pipeline — ETL in SQL Server → Data Exploration → Power BI Visualization → Machine Learning (Random Forest) → Predicted Data Visualization.
 
